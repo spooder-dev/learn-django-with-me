@@ -1,0 +1,7 @@
+🧠 Practice Ideas
+Try creating another project with a different name (e.g. blogsite).
+
+Explore the files Django creates in the mysite/ folder.
+
+Find settings.py, urls.py, and manage.py. We'll talk about them in Lesson 03.
+
