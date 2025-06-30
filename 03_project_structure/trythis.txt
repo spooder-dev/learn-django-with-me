@@ -1,0 +1,20 @@
+## 🧪 Try This
+
+1. Open `settings.py` — find the `INSTALLED_APPS` list. See what’s already there.
+2. Open `urls.py` — try adding a simple path like:
+   ```python
+   from django.urls import path
+   from django.http import HttpResponse
+
+   def home(request):
+       return HttpResponse("Hello from your new project!")
+
+   urlpatterns = [
+       path("", home),
+   ]
+3. Runserver
+python manage.py runserver
+
+You should now see "Hello from your new project!" on the homepage.
+
+
