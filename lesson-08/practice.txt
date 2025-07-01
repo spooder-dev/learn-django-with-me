@@ -1,0 +1,7 @@
+🧠 Practice Ideas
+
+    Add another model (like Feedback, Quote, GuestbookEntry)
+
+    Add more fields (date, image, etc.)
+
+    Customize how the model appears in admin (using list_display)
