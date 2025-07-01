@@ -1,0 +1,7 @@
+🧠 Practice Ideas
+
+    Try passing more variables: numbers, booleans, lists
+
+    Add a second view that sends a message of the day
+
+    Use an if statement to show a special greeting only on weekends

@@ -1,0 +1,31 @@
+✅ Recap
+
+    Context lets you pass Python data into your templates
+
+    It’s just a dictionary passed to render()
+
+    Templates use {{ }} and {% %} to display and loop through data
+
+
+#Take away!
+    ✅ What is request?
+
+request is Django’s way of saying:
+
+    “Someone is visiting your website — here’s all the info about that visit.”
+
+It includes:
+
+    Who is visiting
+
+    What page they want
+
+    If they clicked a link, submitted a form, etc.
+
+    ✅ How do render and request work together?
+
+They work like a team:
+
+    request tells Django what the user asked for
+
+    render() uses that info to prepare and send the right webpage back
