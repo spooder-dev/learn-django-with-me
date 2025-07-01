@@ -1,0 +1,7 @@
+🧠 Bonus: Add More Templates
+
+Try creating:
+
+    A second view and HTML file (goodbye.html)
+
+    Add another route to urls.py that shows it

@@ -1,0 +1,7 @@
+✅ Recap
+
+    Django templates = reusable HTML pages
+
+    render() combines your template with logic
+
+    Folder structure matters (templates/appname/yourfile.html)
