@@ -1,0 +1,7 @@
+🧠 Practice Ideas
+
+    Try changing background color or font in CSS
+
+    Add more images
+
+    Use different styles for different pages

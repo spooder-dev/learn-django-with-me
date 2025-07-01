@@ -1,0 +1,9 @@
+✅ Recap
+
+    Static files = CSS, JS, images
+
+    Stored in static/app_name/
+
+    Use {% load static %} and {% static 'path' %} to include them
+
+    They make your site look awesome ✨
