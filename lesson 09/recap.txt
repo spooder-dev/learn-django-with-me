@@ -1,0 +1,7 @@
+✅ Recap
+
+    Django forms help you collect user input easily
+
+    forms.Form is for simple, no-database forms
+
+    You handle data using POST, form.is_valid(), and form.cleaned_data

@@ -1,8 +1,0 @@
-✅ Recap
-
-    Django Admin is your developer dashboard
-
-    You can add, view, and manage your data visually
-
-    It saves you tons of work during development
-

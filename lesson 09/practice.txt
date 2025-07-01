@@ -1,0 +1,7 @@
+🧠 Practice Ideas
+
+    Try adding more fields: email, age, rating, etc.
+
+    Show a thank-you message after submission
+
+    Store the submitted data in a database model
