@@ -58,11 +58,12 @@ img {
     width: 200px;
     border-radius: 10px;
 }
+```
 
 3. Update your HTML template
 
 Open greeting.html and add this at the top of the file:
-
+```
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -76,6 +77,7 @@ Open greeting.html and add this at the top of the file:
     <p>Welcome to a styled Django page.</p>
 </body>
 </html>
+```
 
 🔍 What does {% load static %} mean?
 
