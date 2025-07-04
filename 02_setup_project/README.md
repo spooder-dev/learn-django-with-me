@@ -32,30 +32,29 @@ We're preparing your site now — so you can build later!
 
 ### 1. Create and activate a virtual environment
 
-```bash
-python3 -m venv env
-source env/bin/activate
+
+`python3 -m venv env`
+`source env/bin/activate`
 
 ✅ This keeps your Python packages safe and separate.i.e fence for the project.
 
 2. Install Django
-bash
-pip install django
+`pip install django`
 
 ✅ Now you have Django ready to use in your toolbox.
 
 3. Start a new Django project
 
-django-admin startproject mysite #this is what you want to create.i.e. the supermarket building called mysite
-cd mysite #move inside your building i.e. mysite
+`django-admin startproject mysite`  #this is what you want to create.i.e. the supermarket building called mysite
+`cd mysite` #move inside your building i.e. mysite
 
 4. Run the development server #local testing area to check how the project is going, if everything is working properly
 
-python manage.py runserver
+`python manage.py runserver`
 
 ✅ Django will start a mini server, and you’ll see a URL like:
 
-http://127.0.0.1:8000/ #Click to see django's welcome page
+`http://127.0.0.1:8000/` #Click to see django's welcome page
 
 
 
