@@ -34,6 +34,8 @@ We're preparing your site now — so you can build later!
 
 
 `python3 -m venv env`
+
+
 `source env/bin/activate`
 
 ✅ This keeps your Python packages safe and separate.i.e fence for the project.
