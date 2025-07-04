@@ -18,6 +18,8 @@ Just use **GitHub Codespaces** (which runs in your browser).
 2. Choose **“Open with Codespaces”** → **“+ New codespace”**
 3. Wait a few seconds — VS Code will open in your browser.
 
+Create your own repo on github to follow the lessons.i.e.My Django Project. Open it using codespace as explained above and create your project as you follow through the lessons. Do not forget to commit so as to not lose your progress.
+
 ---
 
 ## 📦 Project Structure
