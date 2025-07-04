@@ -1,9 +1,0 @@
-✅ Recap
-
-1) You created a virtual environment (clean workspace)
-
-2) Installed Django (toolbox)
-
-3) Started a project (blueprint)
-
-4) Ran the server (tested your tools)

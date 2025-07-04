@@ -1,9 +1,0 @@
-✅ Recap
-manage.py runs your Django commands
-
-settings.py controls your project’s behavior
-
-urls.py routes visitors to the right views
-
-You now understand what all those scary files actually do 😄
-

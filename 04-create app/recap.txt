@@ -1,9 +1,0 @@
-✅ Recap
-A project is the whole website; an app is a piece of it
-
-You used startapp to create one
-
-You connected it with views, urls, and settings.py
-
-You now control your first app route: /hello/
-

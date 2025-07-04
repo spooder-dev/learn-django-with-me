@@ -1,7 +1,0 @@
-🧠 Practice Ideas
-Change the message in say_hello()
-
-Add another path like /goodbye/ with a new view
-
-Try creating a second app (like about) and linking it
-
