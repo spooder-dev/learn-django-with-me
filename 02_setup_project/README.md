@@ -46,6 +46,8 @@ We're preparing your site now — so you can build later!
 3. Start a new Django project
 
 `django-admin startproject mysite`  #this is what you want to create.i.e. the supermarket building called mysite
+
+
 `cd mysite` #move inside your building i.e. mysite
 
 4. Run the development server #local testing area to check how the project is going, if everything is working properly
