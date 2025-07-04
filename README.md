@@ -34,40 +34,49 @@ Create your own repo on github to follow the lessons.i.e.My Django Project. Open
 
 ### ▶️ In the terminal (inside Codespaces), type:
 
-```bash
-git checkout lesson-02-setup
 
-Replace lesson-03-views with the branch name of the lesson you want to try.
+`git checkout lesson-02-setup`
+
+Replace `lesson-02-setup` with the branch name of the lesson you want to try.
 
 You can run the Django server with:
-python manage.py runserver
-Then visit http://127.0.0.1:8000/ in the preview tab.
 
-📚 Lessons Overview
-Lesson	Branch Name	                        Topic
-01	    lesson-01-what-is-django	        What is Django?
-02	    lesson-02-setup	                    Setting up your Django project
-03	    lesson-03-structure	                Understanding the django project structure
-04	    lesson-04-create-app	            Creating your django app
-05	    lesson-05-templates	                Understanding and creating django templates
-06	    lesson-06-context	                Passing Data to Templates (Context/Dictionaries)
-07	    lesson-07-staticfiles	            Adding CSS & Images (Static Files)
-08	    lesson-08-adminpanel                Creating admin Panel
-09	    lesson-09-form	                    User Input with Django Forms
+`python manage.py runserver`
 
+Then visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in the **Preview tab**.
 
-🙋 Who This Is For
+---
 
-    You know some Python basics (functions, variables, if statements)
+## 📚 Lessons Overview
 
-    You want to learn Django in a simple, practical way
+| Lesson | Branch Name              | Topic                                         |
+|--------|--------------------------|-----------------------------------------------|
+| 01     | lesson-01-what-is-django | What is Django?                               |
+| 02     | lesson-02-setup          | Setting up your Django project                |
+| 03     | lesson-03-structure      | Understanding the Django project structure    |
+| 04     | lesson-04-create-app     | Creating your Django app                      |
+| 05     | lesson-05-templates      | Understanding and creating Django templates   |
+| 06     | lesson-06-context        | Passing Data to Templates (Context)           |
+| 07     | lesson-07-staticfiles    | Adding CSS & Images (Static Files)            |
+| 08     | lesson-08-adminpanel     | Creating an Admin Panel                       |
+| 09     | lesson-09-form           | User Input with Django Forms                  |
 
-    You want to build real web apps — not just read theory
+---
 
+## 🙋 Who This Is For
 
-❤️ Let’s Learn Django Together
+- You know some Python basics (functions, variables, if statements)
+- You want to learn Django in a simple, practical way
+- You want to build real web apps — not just read theory
+
+---
+
+## ❤️ Let’s Learn Django Together
 
 Every lesson builds on the last one.
+
 You’ll write real code, run real servers, and actually understand what’s happening.
 
-Start from Lesson 01 and go step by step. You've got this! 🚀
+👉 Start from **Lesson 01** and go step by step.
+
+You've got this! 🚀
