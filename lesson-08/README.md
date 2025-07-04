@@ -40,7 +40,7 @@ Run this in the terminal:
 
 ```bash
 python manage.py createsuperuser
-
+```
 Follow the prompts:
 
     Username
@@ -62,7 +62,7 @@ Log in using the superuser account you just created.
 A model is like a table to store data. Each class is a table, ie the class Greeting is a table with the fields name and message. The fields are the columns in the table.
 
 Create a model in hello/models.py:
-
+```
 from django.db import models
 
 class Greeting(models.Model):
@@ -71,25 +71,28 @@ class Greeting(models.Model):
 
     def __str__(self):
         return f"Greeting from {self.name}"
+```
 
 ✅ 4. Add to admin.py
 We register it in the admin.py so that django knows to display that information in the admin panel and no where else; only the superuser can access that data
 
 Open hello/admin.py and register your model:
-
+```
 from django.contrib import admin
 from .models import Greeting
 
 admin.site.register(Greeting)
+```
 
 ✅ 5. Apply Migrations
 makemigrations is like staging the tables to add to the database. This is like git add . command. saying you want to add those tables to your database.
 migrate is saving the changes made/ tables made to the database. This is like git commit -m "" command.i.e saving that version .
 
 To create the table for your model in the database:
-
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
 ✅ 6. Add, Edit, and View in Admin
 
