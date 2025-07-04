@@ -33,13 +33,13 @@ from django import forms
 class GreetingForm(forms.Form):
     name = forms.CharField(label='Your Name', max_length=100)
     message = forms.CharField(widget=forms.Textarea, label='Message')
-
+```
 This defines a simple form with two fields.
 
 ✅ 2. Add a view that shows the form
 
 In hello/views.py, add a new view:
-
+```
 from django.shortcuts import render
 from django.http import HttpResponse
 from .forms import GreetingForm  # Added in Lesson 09
@@ -75,11 +75,11 @@ def greeting_form(request):
         'form': form,
         'submitted_data': submitted_data
     })
-
+```
 ✅ 3. Create the template
 
 In hello/templates/hello/greeting_form.html:
-
+```
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -106,11 +106,11 @@ In hello/templates/hello/greeting_form.html:
 
 ✅ {{ form.as_p }} automatically renders the form fields as HTML paragraphs
 ✅ {% csrf_token %} protects the form from cross-site attacks
-
+```
 ✅ 4. Add the URL
 
 In hello/urls.py, add:
-
+```
 from django.urls import path
 from . import views
 
@@ -120,5 +120,5 @@ urlpatterns = [
     path('hello-context/', views.say_hello_with_context, name='say_hello_with_context'),  # Lesson 06
     path('form/', views.greeting_form, name='greeting_form'),            # Lesson 09
 ]
-
+```
 Now when you visit /form/, you’ll see the form, and it will show the submitted message after you click Submit.
