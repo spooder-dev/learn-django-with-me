@@ -41,8 +41,10 @@ Open mysite/settings.py, and in the INSTALLED_APPS list, add this line:
 3. Create a view
 Open hello/views.py and add:
 
-`from django.http import HttpResponse
-  def say_hello(request):
+`from django.http import HttpResponse`
+
+
+  `def say_hello(request):
     return HttpResponse("Hello from your first app!")`
 
 4. Add a URL route for the app
@@ -51,18 +53,18 @@ urls.py
 
 Then paste:
 
-`from django.urls import path
- from . import views
- urlpatterns = [
+`from django.urls import path`
+`from . import views`
+ `urlpatterns = [
     path('', views.say_hello),
 ]`
 
 5. Connect the app to the project
 Open your main mysite/urls.py and update it like this:
 
-`from django.contrib import admin
-from django.urls import path, include
- urlpatterns = [
+`from django.contrib import admin`
+`from django.urls import path, include`
+ `urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', include('hello.urls')),
 ]`
