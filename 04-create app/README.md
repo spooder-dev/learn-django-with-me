@@ -54,6 +54,8 @@ urls.py
 Then paste:
 
 `from django.urls import path`
+
+
 `from . import views`
  `urlpatterns = [
     path('', views.say_hello),
@@ -63,7 +65,11 @@ Then paste:
 Open your main mysite/urls.py and update it like this:
 
 `from django.contrib import admin`
+
+
 `from django.urls import path, include`
+
+
  `urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', include('hello.urls')),
