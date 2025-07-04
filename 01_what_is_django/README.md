@@ -65,4 +65,3 @@ We’ll build small apps while learning core Django ideas, step-by-step:
 
 ---
 
-➡️ Next: [Lesson 02 — Setting Up Your Django Project](../lesson-02-setup/README.md)
