@@ -37,11 +37,12 @@ def say_hello(request):
         'items': ['Apples', 'Bananas', 'Cookies']
     }
     return render(request, 'hello/greeting.html', context) #this means: take the greeting.html file, fill it with the data in context, and send it back to the browser as the web page the user will see.”
+```
 
 2. Update the template
 
 In hello/templates/hello/greeting.html, replace its content with:
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,6 +59,7 @@ In hello/templates/hello/greeting.html, replace its content with:
     </ul>
 </body>
 </html>
+```
 
 ✅ Now the page is using data passed from the view!
 
